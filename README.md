@@ -2,7 +2,7 @@
 Stats-preview-card-component CHALLENGE
 
 # Project Link :
-https://github.com/Jank1510/Stats-preview-card-component/
+https://jank1510.github.io/Stats-preview-card-component/
 
 
 # Preview Image:
