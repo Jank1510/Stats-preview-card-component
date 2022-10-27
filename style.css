@@ -1,21 +1,8 @@
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
+
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0%;
-    font-size: 15px;
-    background-color: hsl(233, 47%, 7%);
-    font-family: 'Inter', sans-serif;
-}
-
 .spanH1 {
     color: hsl(277, 64%, 61%);
 }
@@ -24,19 +11,7 @@ body {
     text-transform: uppercase;
 }
 
-.span-White {
-    color: white;
-    font-weight: bolder;
-    font-size: 25px;
-    font-size: 1.5rem;
-}
 
-.span-2 {
-    margin-top: 0.3rem;
-    color: hsla(0, 0%, 100%, 0.6);
-    font-size: 12px;
-    font-family: 'Lexend Deca', sans-serif;
-}
 
 .div-img::before {
     content: "";
@@ -50,12 +25,10 @@ body {
 @media (min-width: 320px) {
     main {
         width: 90%;
-        margin: 0 auto;
         display: flex;
         flex-direction: column-reverse;
         background-color: hsl(244, 38%, 16%);
-        margin-top: 15vh;
-        border-radius: 0.5rem;
+        border-radius: 0.5rem;margin: auto;margin-top: 6rem;
     }
     .div-txt {
         width: 100%;
@@ -94,18 +67,44 @@ body {
         border-top-right-radius: 0.5rem;
         border-bottom-right-radius: 0.5rem;
         height: 280px;
+    }.span-White {
+        color: white;
+        font-weight: bolder;
+        font-size: 25px;
+        font-size: 1.5rem;
+    }
+    
+    .span-2 {
+        margin-top: 0.3rem;
+        color: hsla(0, 0%, 100%, 0.6);
+        font-size: 12px;
+        font-family: 'Lexend Deca', sans-serif;
+    }.attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    
+    body {width: 100%;
+        height: 100vh;
+        margin: 0%;
+        font-size: 15px;
+        background-color: hsl(233, 47%, 7%);
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1000px) {
     main {
         width: max(65%, 65rem);
-        margin: 0 auto;
         display: flex;
         flex-direction: row;
         background-color: hsl(244, 38%, 16%);
-        margin-top: 25.5vh;
-        border-radius: 0.5rem;
+        border-radius: 0.5rem;margin: auto; 
     }
     .div-txt {
         width: 51%;
@@ -116,7 +115,7 @@ body {
         margin-top: 5rem;
         width: 75%;
         color: hsl(0, 0%, 100%);
-        font-size: 2rem;
+        font-size: 2vw;
     }
     .div-txt P {
         margin-left: 5rem;
@@ -143,5 +142,33 @@ body {
         border-top-right-radius: 0.5rem;
         border-bottom-right-radius: 0.5rem;
         height: auto;
+    }.span-White {
+        color: white;
+        font-weight: bolder;
+        font-size: 1.6vw;
+        font-size: 1.5vwm;
+    }
+    
+    .span-2 {
+        margin-top: 0.3rem;
+        color: hsla(0, 0%, 100%, 0.6);
+        font-size: .8vw;
+        font-family: 'Lexend Deca', sans-serif;
+    }.attribution {
+        font-size: .8vw;
+        text-align: center;
+    }
+    
+    
+    body {width: 100%;
+        height: 100vh;
+        margin: 0%;
+        font-size: 1vw;
+        background-color: hsl(233, 47%, 7%);
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 }
