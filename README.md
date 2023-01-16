@@ -1,5 +1,5 @@
 # Stats-preview-card-component
-Stats-preview-card-component CHALLENGE
+Stats-preview-card-component CHALLENGE finalizado ☑
 
 # Project Link :
 https://jank1510.github.io/Stats-preview-card-component/
